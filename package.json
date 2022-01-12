@@ -1,0 +1,30 @@
+{
+  "name": "redesigned-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./build && tsc",
+    "start":"npm run build && node build/index.js",
+    "dev":"nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xebec19/redesigned-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xebec19/redesigned-system/issues"
+  },
+  "homepage": "https://github.com/Xebec19/redesigned-system#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
